@@ -1,4 +1,8 @@
-.header .header_homepage {
+.header {
+  padding-top: 56px;
+}
+
+.header .header__homepage {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,17 +11,29 @@
      object-fit: cover;
 }
 
-.About_us_______________Services_______________C {
+.header .nav__item {
   font-size: 18px;
   font-family: "Montserrat";
-  color: white;
-  line-height: 1.2;
   text-align: right;
-  -moz-transform: matrix(1.00017, 0, 0, 1, 0, 0);
-  -webkit-transform: matrix(1.00017, 0, 0, 1, 0, 0);
-  -ms-transform: matrix(1.00017, 0, 0, 1, 0, 0);
-  position: absolute;
-  left: 1151.913px;
-  top: 379.7px;
-  z-index: 159;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 10px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.header .nav__item:hover {
+  border-color: #5c7cc7;
+}
+
+.header .nav__link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #fff;
+}
+
+.header .nav__link:hover {
+  text-decoration: none;
 }
