@@ -1,0 +1,23 @@
+.header .header_homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.About_us_______________Services_______________C {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+  text-align: right;
+  -moz-transform: matrix(1.00017, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(1.00017, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(1.00017, 0, 0, 1, 0, 0);
+  position: absolute;
+  left: 1151.913px;
+  top: 379.7px;
+  z-index: 159;
+}
