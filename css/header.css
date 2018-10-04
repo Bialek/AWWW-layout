@@ -1,14 +1,18 @@
 .header {
   padding-top: 56px;
+  background-image: url("../img/Home.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.header .header__homepage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+@media screen and (max-width: 782px) {
+  .header {
+    padding-top: 0px;
+  }
+}
+
+.header .nav__brand {
+  margin: 20px 0;
 }
 
 .header .nav__item {
@@ -36,4 +40,66 @@
 
 .header .nav__link:hover {
   text-decoration: none;
+}
+
+.header .slogan {
+  margin-top: 20vh;
+}
+
+@media screen and (max-width: 782px) {
+  .header .slogan {
+    margin-top: 50px;
+  }
+}
+
+.header .slogan .slogan__h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.header .slogan .slogan__p {
+  font-size: 20px;
+  color: #72B2f2;
+  line-height: 3;
+}
+
+.header .slogan .slogan__btn {
+  font-size: 18px;
+  color: #fff;
+  border: 0;
+  text-align: left;
+  margin-right: 10px;
+  padding: 15px 30px;
+  background-color: #6166ED;
+  cursor: pointer;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.header .slogan .slogan__btn:hover {
+  background-color: #302D64;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header .slogan .slogan__btn {
+    margin-right: auto;
+  }
+}
+
+.header .header__brandDiv {
+  height: 241px;
+}
+
+.header .header__brandLogo {
+  margin: 20px;
+}
+
+.header .header__brandLogo:first-child {
+  margin-left: 0;
+}
+
+.header .header__brandLogo:last-child {
+  margin-right: 0;
 }
