@@ -3,11 +3,29 @@
 * {
     font-family: 'Montserrat';
 }
-
-.lineBreaker {
-    display: block;
-}
-
 .row {
     margin: 0;
 }
+h1 {
+    font-size: 50px;
+     font-weight: bold;
+    color: #fff;
+}
+h2 {
+    font-size: 30px;
+    color: #17479E;
+    font-weight: bold;
+    line-height: 4;
+}
+h3 {
+    font-size: 20px;
+    color: #1617AC;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+span {
+    display: block;
+}
+
+  
