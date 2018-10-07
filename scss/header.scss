@@ -50,6 +50,7 @@
       margin-right: 10px;
       padding: 15px 30px;
       background-color: #6166ED;
+      margin-bottom: 100px;
       cursor: pointer;
       transition-duration: 200ms;
       &:hover {
@@ -58,12 +59,11 @@
       }
       @media screen and (max-width: 768px) {
         margin-right: auto;
-        
+      }
+      @media screen and (max-width: 480px) {
+        margin-bottom: 20px;
       }
     }
-  }
-  .header__brandDiv {
-    height: 241px;
   }
   .header__brandLogo {
     margin: 20px;
