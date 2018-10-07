@@ -128,12 +128,12 @@
 .footer__btn {
   font-size: 14px;
   font-family: "WorkSans";
-  color: #fff;
+  color: #7dbd6e;
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
   float: right;
-  border: 1px solid #fff;
+  border: 1px solid #7dbd6e;
   border-radius: 25px;
   width: 227px;
   height: 59px;
@@ -146,8 +146,8 @@
 }
 
 .footer__btn:hover {
-  border-color: #7dbd6e;
-  color: #7dbd6e;
+  border-color: #fff;
+  color: #fff;
 }
 
 .footer__copyright {

@@ -9,29 +9,29 @@ $color1: #7dbd6e;
   background-repeat: no-repeat;
   padding: 75px 0;
   &__address {
-      font-size: 16px;
-      text-transform: uppercase;
-      line-height: 1.75;
-      color: #fff;
-      margin: 0;
-      a {
-          color: $color1; 
-      }
-      &:nth-child(even) {
-          margin-bottom: 35px;
-      }
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.75;
+    color: #fff;
+    margin: 0;
+    a {
+        color: $color1; 
+    }
+    &:nth-child(even) {
+        margin-bottom: 35px;
+    }
   }
   &__social {
-      a {
-          font-size: 20px;
-          color: #fff;
-          margin: 25px 0;
-          transition-duration: 400ms;
-          cursor: pointer;
-          &:hover {
-              color: $color1;
-          }
+    a {
+      font-size: 20px;
+      color: #fff;
+      margin: 25px 0;
+      transition-duration: 400ms;
+      cursor: pointer;
+      &:hover {
+          color: $color1;
       }
+    }
   }
   &__inputGroup {
     font-family: "WorkSans";
@@ -101,12 +101,12 @@ $color1: #7dbd6e;
   &__btn {
     font-size: 14px;
     font-family: "WorkSans";
-    color: #fff;
+    color: $color1;
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
     float: right;
-    border: 1px solid #fff;
+    border: 1px solid $color1;
     border-radius: 25px;
     width: 227px;
     height: 59px;
@@ -116,8 +116,8 @@ $color1: #7dbd6e;
     cursor: pointer;
     margin-bottom: 75px;
     &:hover {
-      border-color: $color1;
-      color: $color1;
+      border-color: #fff;
+      color: #fff;
     }
   }
   &__copyright {
