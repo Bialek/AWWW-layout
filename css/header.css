@@ -88,6 +88,7 @@
 
 .header .header__brandLogo {
   margin: 20px;
+  margin-bottom: 50px;
 }
 
 .header .header__brandLogo:first-child {
