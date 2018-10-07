@@ -24,8 +24,8 @@
   margin: 10px;
   border: 2px solid transparent;
   border-radius: 50px;
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
 }
 
 .header .nav__item:hover {
@@ -67,8 +67,8 @@
   padding: 15px 30px;
   background-color: #6166ED;
   cursor: pointer;
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
 }
 
 .header .slogan .slogan__btn:hover {

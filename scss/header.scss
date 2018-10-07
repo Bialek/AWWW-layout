@@ -18,7 +18,7 @@
     margin: 10px;
     border: 2px solid transparent;
     border-radius: 50px;
-    transition-duration: 500ms;
+    transition-duration: 200ms;
     &:hover{
       border-color: #5c7cc7;
     }
@@ -51,7 +51,7 @@
       padding: 15px 30px;
       background-color: #6166ED;
       cursor: pointer;
-      transition-duration: 500ms;
+      transition-duration: 200ms;
       &:hover {
         background-color: #302D64;
         text-decoration: none;

@@ -1,1 +1,158 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+.footer {
+  background-image: url(../img/Footer.jpg);
+  background-size: 100% 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  padding: 75px 0;
+}
+
+.footer__address {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.75;
+  color: #fff;
+  margin: 0;
+}
+
+.footer__address a {
+  color: #7dbd6e;
+}
+
+.footer__address:nth-child(even) {
+  margin-bottom: 35px;
+}
+
+.footer__social a {
+  font-size: 20px;
+  color: #fff;
+  margin: 25px 0;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  cursor: pointer;
+}
+
+.footer__social a:hover {
+  color: #7dbd6e;
+}
+
+.footer__inputGroup {
+  font-family: "WorkSans";
+  line-height: 1.2;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  width: 45%;
+}
+
+.footer__inputGroup:nth-child(odd) {
+  margin-right: 9%;
+}
+
+@media screen and (max-width: 992px) {
+  .footer__inputGroup {
+    width: 100%;
+  }
+}
+
+.footer__inputGroup:last-of-type {
+  width: 100%;
+  margin-right: 0;
+}
+
+.footer__inputGroup:last-of-type label {
+  top: -25px;
+}
+
+.footer__inputGroup input, .footer__inputGroup textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  text-transform: inherit;
+  padding: 10px 0 14px;
+  color: inherit;
+  font-size: 14px;
+  margin-bottom: 45px;
+}
+
+.footer__inputGroup input:focus, .footer__inputGroup input:active, .footer__inputGroup textarea:focus, .footer__inputGroup textarea:active {
+  outline: none;
+}
+
+.footer__inputGroup input.default, .footer__inputGroup textarea.default {
+  border-color: #fff;
+}
+
+.footer__inputGroup input.correct, .footer__inputGroup textarea.correct {
+  border-color: #7dbd6e;
+}
+
+.footer__inputGroup input.incorrect, .footer__inputGroup textarea.incorrect {
+  border-color: #bd6e6e;
+}
+
+.footer__inputGroup textarea {
+  resize: none;
+  text-transform: none;
+}
+
+.footer__inputGroup label {
+  font-size: 12px;
+  margin: 0;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: -webkit-transform 200ms linear;
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+  top: 0;
+  left: 0;
+}
+
+.footer__inputGroup label.animate {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 200ms linear;
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+
+.footer__btn {
+  font-size: 14px;
+  font-family: "WorkSans";
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  float: right;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  width: 227px;
+  height: 59px;
+  background-color: transparent;
+  text-transform: uppercase;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  cursor: pointer;
+  margin-bottom: 75px;
+}
+
+.footer__btn:hover {
+  border-color: #7dbd6e;
+  color: #7dbd6e;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #fff;
+}

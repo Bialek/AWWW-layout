@@ -120,16 +120,6 @@
   background-color: #fafafa;
 }
 
-.technology__text {
-  padding: 25px 0;
-}
-
-@media (min-width: 768px) {
-  .technology__text {
-    padding: 0;
-  }
-}
-
 .technology__text p {
   font-size: 16px;
   color: #333336;

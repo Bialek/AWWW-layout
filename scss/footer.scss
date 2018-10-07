@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+$color1: #7dbd6e;
+
+.footer {
+  background-image: url(../img/Footer.jpg);
+  background-size: 100% 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding: 75px 0;
+  &__address {
+      font-size: 16px;
+      text-transform: uppercase;
+      line-height: 1.75;
+      color: #fff;
+      margin: 0;
+      a {
+          color: $color1; 
+      }
+      &:nth-child(even) {
+          margin-bottom: 35px;
+      }
+  }
+  &__social {
+      a {
+          font-size: 20px;
+          color: #fff;
+          margin: 25px 0;
+          transition-duration: 400ms;
+          cursor: pointer;
+          &:hover {
+              color: $color1;
+          }
+      }
+  }
+  &__inputGroup {
+    font-family: "WorkSans";
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase; 
+    width: 45%;
+    &:nth-child(odd) {
+      margin-right: 9%;
+    }
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
+    &:last-of-type{
+      width: 100%;
+      margin-right: 0;
+      label {
+        top: -25px;
+      }
+    }
+    input, textarea {
+      width: 100%;
+      background-color: transparent;
+      border: 0; 
+      border-bottom: 1px solid #fff;
+      text-transform: inherit;
+      padding: 10px 0 14px;
+      color: inherit;
+      font-size: 14px;
+      margin-bottom: 45px;
+      &:focus,
+      &:active{
+        outline: none;
+      }
+      &.default {
+        border-color: #fff;
+      }
+      &.correct {
+        border-color: $color1;
+      }
+      &.incorrect {
+        border-color: #bd6e6e;
+      }
+    }
+    textarea {
+      resize: none;
+      text-transform: none;
+    }
+    label {
+      font-size: 12px;
+      margin: 0;
+      position: absolute;
+      pointer-events: none;
+      transform-origin: 0 0 ;
+      transform: translateY(100%);
+      transition: transform 200ms linear;
+      top: 0;
+      left: 0;
+      &.animate{
+        transform:  translateY(- 100%);
+        transition: transform 200ms linear;
+      }
+    }
+  }
+  &__btn {
+    font-size: 14px;
+    font-family: "WorkSans";
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    float: right;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 227px;
+    height: 59px;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition-duration: 200ms;
+    cursor: pointer;
+    margin-bottom: 75px;
+    &:hover {
+      border-color: $color1;
+      color: $color1;
+    }
+  }
+  &__copyright {
+      font-size: 12px;
+      text-transform: uppercase;
+      line-height: 1.2;
+      color: #fff;
+      
+  }
+}
+
+
